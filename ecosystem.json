@@ -10,7 +10,7 @@
       "user":"root",
       "host":["1.116.145.253"],
       "port":"22",
-      "ref":"origin/master",
+      "ref":"origin/main",
       "repo":"git@github.com:feltshaping/ice.git",
       "path":"/root/node",
       "ssh_options": "StrictHostKeyChecking=no",
