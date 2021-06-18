@@ -10,7 +10,7 @@ app.use((req,res,next)=>{
     next()
   })
 })
-app.get('/',(req,res)=>{res.end('ice')})
+app.get('/',(req,res)=>{res.end('ice pm2 git')})
 app.post('/post',(req,res)=>{
   fs.writeFile('./app.json',qs.stringify(req.b),'utf8',(err,result)=>{
     if(err!==null){console.log(err);}
